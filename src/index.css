@@ -220,3 +220,13 @@ body {
   border: none;
   background: #841002;
 }
+.tx_danger {
+  background: linear-gradient(44.01deg, #d41700 -6.45%, #7f0011 136.55%);
+}
+
+/* our_products */
+
+.max_w_780px {
+  max-width: 780px;
+  margin: 0 auto;
+}
