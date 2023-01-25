@@ -1,13 +1,178 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* === Root === */
+@font-face {
+  font-family: "Gilroy";
+  src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
+  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
+  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
+  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
+}
+:root {
+  /* === Font Family === */
+  --ff_Montserrat: "Montserrat", sans-serif;
+
+  /* === Font Size === */
+  --fs_mini: 14px;
+  --fs_xsm: 16px;
+  --fs_sm: 18px;
+  --fs_md: 20px;
+  --fs_lg: 22px;
+  --fs_xl: 24px;
+  --fs_xxl: 45px;
+  --fs_3xl: 56px;
+  --fs_4xl: 65px;
+  --fs_5xl: 85px;
+  /* === Font Weight === */
+  --fw_medium: 500;
+
+  /* === Text Color === */
+  --tx_primary: #a6a6a6;
+  --tx_secondary: #e1e1e1;
+  --tx_neutral: #841002;
+  --tx_body: #f2f2f2;
+  --tx_light: #878787;
+  /* === Background Color === */
+  --bg_primary: #a6a6a6;
+  --bg_secondary: #e1e1e1;
+  --bg_neutral: #841002;
+  --bg_body: #f2f2f2;
+  --bg_light: #878787;
+}
+
+/* === Font Size === */
+.fs_mini {
+  font-size: var(--fs_mini);
+}
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+.fs_md {
+  font-size: var(--fs_md);
+}
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+.fs_xxl {
+  font-size: var(--fs_xxl);
+}
+.fs_3xl {
+  font-size: var(--fs_3xl);
+}
+.fs_4xl {
+  font-size: var(--fs_4xl);
+}
+.fs_5xl {
+  font-size: var(--fs_5xl);
+}
+
+/* === Font Weight === */
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+/* === Font Family === */
+.ff_gilroy {
+  font-family: "Gilroy";
+}
+.ff_Montserrat {
+  font-family: var(--ff_Montserrat);
+}
+
+/* === Text Color === */
+.tx_primary {
+  color: var(--tx_primary);
+}
+
+.tx_secondary {
+  color: var(--tx_secondary);
+}
+
+.tx_light {
+  color: var(--tx_light);
+}
+
+.tx_body {
+  color: var(--tx_body);
+}
+
+.tx_neutral {
+  color: var(--tx_neutral);
+}
+
+/* === Background Color === */
+.bg_primary {
+  background-color: var(--bg_primary);
+}
+
+.bg_secondary {
+  background-color: var(--bg_secondary);
+}
+
+.bg_neutral {
+  background-color: var(--bg_neutral);
+}
+
+.bg_light {
+  background-color: var(--bg_light);
+}
+
+.bg_body {
+  background-color: var(--bg_body);
+}
+
+@media (min-width: 992px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 16px;
+    --fs_sm: 18px;
+    --fs_md: 20px;
+    --fs_lg: 22px;
+    --fs_xl: 24px;
+    --fs_xxl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 85px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 16px;
+    --fs_sm: 18px;
+    --fs_md: 20px;
+    --fs_lg: 22px;
+    --fs_xl: 24px;
+    --fs_xxl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 70px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 16px;
+    --fs_sm: 18px;
+    --fs_md: 20px;
+    --fs_lg: 22px;
+    --fs_xl: 24px;
+    --fs_xxl: 45px;
+    --fs_3xl: 56px;
+    --fs_4xl: 65px;
+    --fs_5xl: 85px;
+  }
 }
