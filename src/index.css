@@ -8,6 +8,10 @@
   list-style-type: none !important;
 }
 
+body {
+  background-color: #000000;
+}
+
 /* .....Root.....*/
 @font-face {
   font-family: "Gilroy";
