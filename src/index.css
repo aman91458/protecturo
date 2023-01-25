@@ -8,20 +8,17 @@
   list-style-type: none !important;
 }
 
-/* === Root === */
+/* .....Root.....*/
 @font-face {
   font-family: "Gilroy";
   src: url(./assets/fonts/gilory/gilroy/Gilroy-Bold.ttf);
-  /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
-  src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
 
 :root {
-  /* === Font Family === */
+  /* ........Font Family....... */
   --ff_Montserrat: "Montserrat", sans-serif;
 
-  /* === Font Size === */
+  /* ......Font Size...... */
   --fs_mini: 14px;
   --fs_xsm: 16px;
   --fs_sm: 18px;
@@ -32,16 +29,16 @@
   --fs_3xl: 56px;
   --fs_4xl: 65px;
   --fs_5xl: 85px;
-  /* === Font Weight === */
+  /* ........ Font Weight ......... */
   --fw_medium: 500;
 
-  /* === Text Color === */
+  /* ........ Text Color ......... */
   --tx_primary: #a6a6a6;
   --tx_secondary: #e1e1e1;
   --tx_neutral: #841002;
   --tx_body: #f2f2f2;
   --tx_light: #878787;
-  /* === Background Color === */
+  /* ........ Background Color ......... */
   --bg_primary: #a6a6a6;
   --bg_secondary: #e1e1e1;
   --bg_neutral: #841002;
@@ -49,7 +46,7 @@
   --bg_light: #878787;
 }
 
-/* === Font Size === */
+/* ........ Font Size ......... */
 .fs_mini {
   font-size: var(--fs_mini);
 }
@@ -90,12 +87,12 @@
   font-size: var(--fs_5xl);
 }
 
-/* === Font Weight === */
+/* ........ Font Weight ......... */
 .fw_medium {
   font-weight: var(--fw_medium);
 }
 
-/* === Font Family === */
+/* ........ Font Family ......... */
 .ff_gilroy {
   font-family: "Gilroy";
 }
@@ -104,7 +101,7 @@
   font-family: var(--ff_Montserrat);
 }
 
-/* === Text Color === */
+/* ........ Text Color ......... */
 .tx_primary {
   color: var(--tx_primary);
 }
@@ -125,7 +122,7 @@
   color: var(--tx_neutral);
 }
 
-/* === Background Color === */
+/* ........ Background Color ......... */
 .bg_primary {
   background-color: var(--bg_primary);
 }
@@ -148,7 +145,7 @@
 
 @media (min-width: 992px) {
   :root {
-    /* === Font Size === */
+    /* ........ Font Size ......... */
     --fs_xsm: 16px;
     --fs_sm: 18px;
     --fs_md: 20px;
@@ -163,7 +160,7 @@
 
 @media (min-width: 1200px) {
   :root {
-    /* === Font Size === */
+    /* ........ Font Size ......... */
     --fs_xsm: 16px;
     --fs_sm: 18px;
     --fs_md: 20px;
@@ -178,7 +175,7 @@
 
 @media (min-width: 1400px) {
   :root {
-    /* === Font Size === */
+    /* ........ Font Size ......... */
     --fs_xsm: 16px;
     --fs_sm: 18px;
     --fs_md: 20px;
