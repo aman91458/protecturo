@@ -9,16 +9,12 @@ const Faq = () => {
     <>
       <Container>
         <div className=" py-5">
-          <Row>
+          <Row className=" align-items-center">
             <Col xl="6">
               <div className=" position-relative">
+                <img className=" w-100" src={faqHand} alt="faqHand" />
                 <img
-                  className=" position-absolute left_49"
-                  src={faqHand}
-                  alt="faqHand"
-                />
-                <img
-                  className=" position-absolute left_49"
+                  className=" w-50 position-absolute left_49"
                   src={faqLeftPos}
                   alt="faqLeftPos"
                 />
