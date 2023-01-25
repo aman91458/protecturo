@@ -218,6 +218,7 @@ body {
   --bs-accordion-btn-bg: var(--bg_neutral) !important;
   --bs-accordion-btn-focus-border-color: none !important;
   --bs-accordion-active-color: none !important;
+  --bs-accordion-btn-bg: #212529 !important;
 }
 
 .accordion-item {
