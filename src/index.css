@@ -15,7 +15,7 @@ body {
 /* .....Root.....*/
 @font-face {
   font-family: "Gilroy";
-  src: url(./assets/fonts/gilory/gilroy/Gilroy-Bold.ttf);
+  src: url(./assets/fonts/gilory/gilroy/Gilroy-Medium.ttf);
 }
 
 :root {
@@ -224,3 +224,12 @@ body {
   border: none;
   background: #841002;
 }
+.tx_danger {
+  background: linear-gradient(44.01deg, #d41700 -6.45%, #7f0011 136.55%);
+}
+
+.bg_box {
+  background: #121212;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
+}
+
