@@ -214,8 +214,10 @@ body {
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
-  --bs-accordion-border-color: none;
-
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-btn-bg: var(--bg_neutral) !important;
+  --bs-accordion-btn-focus-border-color: none !important;
+  --bs-accordion-active-color: none !important;
 }
 
 .accordion-item {
@@ -224,12 +226,7 @@ body {
   border: none;
   background: #841002;
 }
-.tx_danger {
-  background: linear-gradient(44.01deg, #d41700 -6.45%, #7f0011 136.55%);
-}
 
-.bg_box {
-  background: #121212;
-  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
+.accordion-button:not(.collapsed) {
+  background-color: #841002 !important;
 }
-
