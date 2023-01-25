@@ -1,6 +1,11 @@
 import logo from "./logo.svg";
+<<<<<<< HEAD
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+=======
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+>>>>>>> 2940e266e847175f179e78e9a7209a6c7b3f8892
 
 function App() {
   return (
