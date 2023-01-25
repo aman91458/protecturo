@@ -191,3 +191,32 @@ body {
     --fs_5xl: 85px;
   }
 }
+
+/* .......FAQ....... */
+.left_49 {
+  left: -49%;
+}
+
+.accordin_bg {
+  background: #841002 !important;
+  /* box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5) !important; */
+  /* border-radius: 12px; */
+}
+
+.accordin_box {
+  box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5) !important;
+}
+
+.accordion {
+  --bs-accordion-color: #212529;
+  --bs-accordion-bg: #fff;
+  --bs-accordion-border-color: none;
+
+}
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: none;
+  background: #841002;
+}
