@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -10,11 +11,12 @@
 /* === Root === */
 @font-face {
   font-family: "Gilroy";
-  src: url(./assets/font/gilroy/Gilroy-Bold.ttf);
+  src: url(./assets/fonts/gilory/gilroy/Gilroy-Bold.ttf);
   /* src: url(./assets/font/gilroy/Gilroy-SemiBold.ttf);
   src: url(./assets/font/gilroy/Gilroy-Medium.ttf);
   src: url(./assets/font/gilroy/Gilroy-Regular.ttf); */
 }
+
 :root {
   /* === Font Family === */
   --ff_Montserrat: "Montserrat", sans-serif;
@@ -51,30 +53,39 @@
 .fs_mini {
   font-size: var(--fs_mini);
 }
+
 .fs_xsm {
   font-size: var(--fs_xsm);
 }
+
 .fs_sm {
   font-size: var(--fs_sm);
 }
+
 .fs_md {
   font-size: var(--fs_md);
 }
+
 .fs_lg {
   font-size: var(--fs_lg);
 }
+
 .fs_xl {
   font-size: var(--fs_xl);
 }
+
 .fs_xxl {
   font-size: var(--fs_xxl);
 }
+
 .fs_3xl {
   font-size: var(--fs_3xl);
 }
+
 .fs_4xl {
   font-size: var(--fs_4xl);
 }
+
 .fs_5xl {
   font-size: var(--fs_5xl);
 }
@@ -83,10 +94,12 @@
 .fw_medium {
   font-weight: var(--fw_medium);
 }
+
 /* === Font Family === */
 .ff_gilroy {
   font-family: "Gilroy";
 }
+
 .ff_Montserrat {
   font-family: var(--ff_Montserrat);
 }
@@ -147,6 +160,7 @@
     --fs_5xl: 85px;
   }
 }
+
 @media (min-width: 1200px) {
   :root {
     /* === Font Size === */
