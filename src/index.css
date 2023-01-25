@@ -229,37 +229,3 @@ body {
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
 }
 
-/* our_products */
-
-.max_w_1200px {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.btn_our {
-  background: linear-gradient(44.01deg, #d41700 -6.45%, #7f0011 136.55%);
-  padding: 13px 26px;
-  border-radius: 60px;
-}
-
-.top_our_pro {
-  top: -80%;
-}
-
-.z_index_-1 {
-  z-index: -1;
-}
-.z_index_1 {
-  z-index: 1;
-}
-.dot_pos {
-  bottom: -15%;
-  right: -22%;
-}
-.pos_left_ {
-  top: -80%;
-}
-
-.pos_logo_right {
-  bottom: 40%;
-}
