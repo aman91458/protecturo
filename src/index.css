@@ -231,3 +231,11 @@ body {
 .accordion-button:not(.collapsed) {
   background-color: #841002 !important;
 }
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./assets/images/svg/remove.svg") !important;
+}
+
+.accordion-button::after {
+  background-image: url(./assets/images/svg/plus.svg) !important;
+}
