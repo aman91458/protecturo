@@ -219,6 +219,8 @@ body {
   --bs-accordion-btn-focus-border-color: none !important;
   --bs-accordion-active-color: none !important;
   --bs-accordion-btn-bg: #212529 !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-border-radius: 12px !important;
 }
 
 .accordion-item {
