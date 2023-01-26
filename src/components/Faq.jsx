@@ -22,9 +22,9 @@ const Faq = () => {
             </Col>
             <Col lg="6">
               <Accordion
-                defaultActiveKey={["0"]}
-                alwaysOpen
-                className="accordin_box"
+              // defaultActiveKey={["0"]}
+              // alwaysOpen
+              // className="accordin_box"
               >
                 <Accordion.Item eventKey="0" className=" accordin_bg my-3">
                   <Accordion.Header className=" fs_xl text-white ff_gilory accordin_bg">

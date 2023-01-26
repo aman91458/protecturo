@@ -14,8 +14,23 @@ body {
 
 /* .....Root.....*/
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-bold";
+  src: url(./assets/fonts/gilory/gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(./assets/fonts/gilory/gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
   src: url(./assets/fonts/gilory/gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./assets/fonts/gilory/gilroy/Gilroy-Regular.ttf);
 }
 
 :root {
@@ -97,8 +112,20 @@ body {
 }
 
 /* ........ Font Family ......... */
-.ff_gilroy {
-  font-family: "Gilroy";
+.ff_gilroy_bold {
+  font-family: "Gilroy-bold";
+}
+
+.ff_gilroy_SemiBold {
+  font-family: "Gilroy-SemiBold";
+}
+
+.ff_gilroy_Medium {
+  font-family: "Gilroy-Medium";
+}
+
+.ff_gilroy_Regular {
+  font-family: "Gilroy-Regular";
 }
 
 .ff_Montserrat {
