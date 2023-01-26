@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Faq from "./components/Faq";
-import ProTechNav from "./components/ProTecNav";
+// import ProTechNav from "./components/ProTecNav";
 import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      {/* <Faq /> */}
-      <ProTechNav />
+      <Faq />
+      {/* <ProTechNav /> */}
     </>
   );
 }
