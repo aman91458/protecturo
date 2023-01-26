@@ -228,10 +228,11 @@ body {
   background-image: url(./assets/images/png/faqHand.png);
 }
 
-.accordin_bg {
+/* .accordin_bg {
   background: #841002 !important;
-  /* box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5) !important; */
-  /* border-radius: 12px; */
+  border-radius: 0 0 60px 60px !important;
+  box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5) !important; 
+   border-radius: 12px;
 }
 
 .accordin_box {
@@ -246,6 +247,8 @@ body {
   --bs-accordion-btn-focus-border-color: none !important;
   --bs-accordion-active-color: none !important;
   --bs-accordion-btn-bg: #212529 !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-border-radius: 12px !important;
 }
 
 .accordion-item {
@@ -253,8 +256,37 @@ body {
   background-color: var(--bs-accordion-bg);
   border: none;
   background: #841002;
+  border-radius: 60px !important;
 }
 
 .accordion-button:not(.collapsed) {
   background-color: #841002 !important;
+  border-radius: 60px 60px 0 0 !important;
+}
+*/
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./assets/images/svg/remove.svg") !important;
+}
+
+.accordion-button::after {
+  background-image: url(./assets/images/svg/plus.svg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #841002 !important;
+  box-shadow: unset !important;
+}
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: #841002 !important;
+  box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5);
+  border-radius: 40px !important;
+  overflow: hidden !important;
+  border: unset !important;
+}
+
+.accordion-button {
+  background-color: #232323 !important;
 }
