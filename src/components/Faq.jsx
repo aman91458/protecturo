@@ -26,7 +26,7 @@ const Faq = () => {
                 alwaysOpen
                 className="accordin_box"
               >
-                <Accordion.Item eventKey="0" className=" accordin_bg my-3">
+                <Accordion.Item eventKey="0" className=" accordin_bg my-3 rounded-5">
                   <Accordion.Header className=" fs_xl text-white ff_gilory accordin_bg">
                     what are the main objectives of cyber security?
                   </Accordion.Header>
